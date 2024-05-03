@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenderSampleApp", "GenderSampleApp\GenderSampleApp.csproj", "{149D24AE-F524-4684-8FF2-247B7E341295}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55529597-C52E-453B-8E00-90CB7759D584}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core Framework", "Core Framework", "{D7EC9B8A-8BE3-445C-AFC8-68BF7867F392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridViewCheckBoxHelpers", "DataGridViewCheckBoxHelpers\DataGridViewCheckBoxHelpers.csproj", "{FD7109B2-F0CE-4693-8A74-6432AAD96C51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridViewFalseRadioButton", "DataGridViewFalseRadioButton\DataGridViewFalseRadioButton.csproj", "{424B9157-0C09-4FEB-828F-D4A7DEC23CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockedDataLibrary", "MockedDataLibrary\MockedDataLibrary.csproj", "{E41912FD-1BDD-4A12-BC86-AC1EB10D1267}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework 4.8", "Framework 4.8", "{75DE245D-83AF-4211-AF0A-037A12DEE0EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{149D24AE-F524-4684-8FF2-247B7E341295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149D24AE-F524-4684-8FF2-247B7E341295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149D24AE-F524-4684-8FF2-247B7E341295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149D24AE-F524-4684-8FF2-247B7E341295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7109B2-F0CE-4693-8A74-6432AAD96C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7109B2-F0CE-4693-8A74-6432AAD96C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7109B2-F0CE-4693-8A74-6432AAD96C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7109B2-F0CE-4693-8A74-6432AAD96C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424B9157-0C09-4FEB-828F-D4A7DEC23CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424B9157-0C09-4FEB-828F-D4A7DEC23CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424B9157-0C09-4FEB-828F-D4A7DEC23CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424B9157-0C09-4FEB-828F-D4A7DEC23CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41912FD-1BDD-4A12-BC86-AC1EB10D1267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41912FD-1BDD-4A12-BC86-AC1EB10D1267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41912FD-1BDD-4A12-BC86-AC1EB10D1267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41912FD-1BDD-4A12-BC86-AC1EB10D1267}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{149D24AE-F524-4684-8FF2-247B7E341295} = {D7EC9B8A-8BE3-445C-AFC8-68BF7867F392}
+		{FD7109B2-F0CE-4693-8A74-6432AAD96C51} = {75DE245D-83AF-4211-AF0A-037A12DEE0EB}
+		{424B9157-0C09-4FEB-828F-D4A7DEC23CCD} = {75DE245D-83AF-4211-AF0A-037A12DEE0EB}
+		{E41912FD-1BDD-4A12-BC86-AC1EB10D1267} = {75DE245D-83AF-4211-AF0A-037A12DEE0EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B43EE32-E442-46D4-9108-FAA142EA1E1A}
+	EndGlobalSection
+EndGlobal
